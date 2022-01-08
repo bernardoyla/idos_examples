@@ -1,0 +1,14 @@
+#Makefile para hello world
+
+# Declarar el nombre del proyecto que será construido que tiene que
+# ser igual que el archivo de código sin extensión
+IDOS_PROJECT = hello
+
+# Declarar dónde está IDOS
+IDOS = ../../../src
+
+# Regla por defecto
+all: $(IDOS_PROJECT)
+
+# Incorporar el resto de los makefile
+include $(IDOS)/make/idos.mk
