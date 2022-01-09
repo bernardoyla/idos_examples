@@ -2,7 +2,7 @@
 
 # Declarar el nombre del proyecto que será construido que tiene que
 # ser igual que el archivo de código sin extensión
-IDOS_PROJECT = hello
+IDOS_PROJECT = hello_world
 
 # Declarar dónde está IDOS
 IDOS = ../../../src
